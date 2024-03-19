@@ -1,7 +1,5 @@
 # PPI-Proyecto
-Proyecto con front end, back end e IA 
-
-Ese es el repositorio para el proyecto:
+Pelayo Ramos Isaac
 
 Chatbot de recomendación de películas
 
