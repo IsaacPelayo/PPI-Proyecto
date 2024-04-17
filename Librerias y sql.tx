@@ -1,0 +1,12 @@
+pip install openai
+pip install mysql-conector-python
+
+CREATE DATABASE `chatbot`; /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_spanish2_ci */
+
+CREATE TABLE `chatbot` (
+  `id_msg` int(10) NOT NULL AUTO_INCREMENT,
+  `date_msg` date NOT NULL DEFAULT current_timestamp(),
+  `mensaje` varchar(1000) CHARACTER SET utf8mb4 NOT NULL,
+  `respuesta` varchar(2000) CHARACTER SET utf8mb4 NOT NULL,
+  PRIMARY KEY (`id_msg`)
+);
